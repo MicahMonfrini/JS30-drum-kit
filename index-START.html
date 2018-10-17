@@ -60,11 +60,11 @@
 <script>
   window.addEventListener('keydown', function (e) {
     const audio = document.querySelector(`audio[data-key="${e.which}"]`)
-      if (!audio) return; // stop function if input has no assigned data-key
-    
-    audio.currentTime = 0; // reset audio playback
+    const key = document.querySelector(`.key[data-key="${e.which}"]`)
+    if (!audio) return; // stop function if input has no assigned data-key
+    audio.currentTime = 0; // reset audio playback on each input
     audio.play();
-
+    key.classList.add('playing'); // add animation for key inputs
   })
 </script>
 
