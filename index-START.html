@@ -67,7 +67,12 @@
     key.classList.add('playing'); // add animation for key inputs
   })
 
-const keys = document.querySelectorAll('.key'); //selector for all .key elements
+  function removeTransition() {
+
+  }
+
+  const keys = document.querySelectorAll('.key'); //selector for all .key elements
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition) // loop over each key; remove transition styling when transition finishes
 
 </script>
 
