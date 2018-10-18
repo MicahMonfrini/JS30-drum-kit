@@ -1,3 +1,5 @@
+## Notes:
+
 The [`document`](https://developer.mozilla.org/en-US/docs/Web/API/Document) interface is used as the entry point to  the DOM. 
 
 [`.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) -  returns the element that matches the selector. Must be a valid CSS selector string.
