@@ -10,4 +10,4 @@ The [`document`](https://developer.mozilla.org/en-US/docs/Web/API/Document) inte
 
 [`.propertyName`](https://www.w3schools.com/jsref/event_transition_propertyName.asp) is a DOM string containing the value of a CSS transition property.
 
-[`.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) - a function that will be called whenever the specific event occurs. Can be used to listen for all types of events. 
+[`.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) - a function that will be called whenever the specific event occurs. Can be used to listen for all types of events.
